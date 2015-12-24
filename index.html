@@ -1,0 +1,159 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="theme/supersized.shutter.css" type="text/css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="css/menu_cornermorph.css" />
+        <link rel="stylesheet" type="text/css" href="css/uikit.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/uikit.almost-flat.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="js/vendor/supersized.3.2.7.min.js"></script>
+        <script type="text/javascript" src="theme/supersized.shutter.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/uikit.min.js"></script>
+        <script type="text/javascript" src="js/vendor/core/dropdown.min.js"></script>
+<script>
+        jQuery(function($){
+                
+                $.supersized({
+                
+                    // Functionality
+                    slide_interval          :   6000,       // Length between transitions
+                    transition              :   1,          // 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
+                    transition_speed        :   2100,        // Speed of transition
+                    fit_always              :   0,
+                    fit_portrait            :   1,                 
+                                                               
+                    // Components                           
+                    slide_links             :   'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
+                    slides                  :   [           // Slideshow Images
+                                                        {image : 'img/main_1.jpg', title : 'Image Credit: Maria Kazvan'},
+                                                        {image : 'img/main_2.jpg', title : 'Image Credit: Maria Kazvan'},  
+                                                        {image : 'img/main_3.jpg', title : 'Image Credit: Maria Kazvan'},
+                                                        {image : 'img/main_4.jpg', title : 'Image Credit: Colin Wojno'},
+                                                        {image : 'img/main_5.jpg', title : 'Image Credit: Colin Wojno'},
+                                                        {image : 'img/main_6.jpg', title : 'Image Credit: Colin Wojno'},
+                                                        {image : 'img/main_7.jpg', title : 'Image Credit: Colin Wojno'},
+                                                        {image : 'img/main_8.jpg', title : 'Image Credit: Colin Wojno'},
+                                                        {image : 'img/main_9.jpg', title : 'Image Credit: Colin Wojno'},
+                                                        {image : 'img/main_10.jpg', title : 'Image Credit: Colin Wojno'}
+                                                ]
+                    
+                });
+            });
+
+        </script>
+    </head>
+<body>
+    <header id="home-header" class="uk-width-1-12">
+    <div class="uk-grid">
+        <div class="uk-width-1-10">
+            <div class="logo">LM</div>
+        </div>
+        <div class="uk-width-1-10">
+            <div class="uk-button-dropdown"  aria-haspopup="true" aria-expanded="false">
+                <button class="uk-button">Saloon <i class="uk-icon-caret-down"></i></button>
+                <div class="uk-dropdown uk-dropdown-bottom">
+                    <ul class="uk-nav uk-nav-dropdown">
+                        <li><a href="#">Saloon</a></li>
+                        <li><a href="#">Spa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+     <button class="menu-button" id="open-button"><i class="uk-icon-navicon"></i><span>Open Menu</span></button>
+            <div class="menu-wrap">
+                <nav class="menu">
+                    <div class="profile"><img src="img/user1.jpg" alt="Matthew Greenberg"/><span>Matthew Greenberg</span></div>
+                    <div class="link-list">
+                        <a href="#"><span>About Us</span></a>
+                        <a href="#"><span><i class="fa fa-fw fa-download"></i> Our App </span></a>
+                        <a href="#"><span>Find Me</span></a>
+                        <a href="#"><span>Offers</span></a>
+                    </div>
+                    <div class="icon-list">
+                        <a href="#" class="uk-icon-home"></a>
+                        <a href="#" class="uk-icon-phone"></a>
+                        <a href="#" class="uk-icon-sign-in"></a>
+                    </div> 
+                </nav>
+            </div>
+            
+                      
+        </div>
+    </header>
+    
+    <section class="main_content">
+        <div class="uk-flex uk-flex-nowrap">
+        <span id="textb" class="text_box">
+        <input  type="text" />
+        </span>
+        <a id="search-home" href="#" class="searchicon"><img src="img/search.png"/></a>
+            
+        </div>
+    </section>
+            <footer class="uk-width-1-12">
+            <div class="uk-grid uk-grid-small uk-text-center">
+                    <div class="uk-width-2-10 uk-text-left">
+                        &copy; copy rigths
+                    </div>
+                    <a class="uk-width-1-10" href="#">
+                        Terms &amp; Condition
+                    </a>
+                    <a class="uk-width-1-10" href ="#">
+                    Policy
+                    </a>
+                    <a class="uk-width-1-10" href ="#">
+                    Feedback
+                    </a>
+                    <a class="uk-width-1-10" href ="#">
+                    Contact Us
+                    </a>
+                    <a class="uk-width-1-10" href ="#">
+                   Careers
+                    </a>
+                    <div class="uk-width-3-10 uk-icon-medium uk-flex uk-flex-space-around">
+                    <a class="uk-icon-facebook " href="#"></a>
+                    <a class="uk-icon-twitter" href="#"></a>
+                    <a class="uk-icon-linkedin" href="#"></a>
+                    <a class="uk-icon-google-plus" href="#"></a>
+                    </div>
+
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+        
+        <script src="js/classie.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/index.js"></script>
+        
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>-->
+    </body>
+</html>
